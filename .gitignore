@@ -2,6 +2,10 @@
 *.exe
 *.out
 *.o
+CONTESTS/test.cpp
+CONTESTS/output.txt
+CONTESTS/input.txt  
+CONTESTS/test.exe
 
 # System files
 .DS_Store
