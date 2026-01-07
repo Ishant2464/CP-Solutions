@@ -15,21 +15,21 @@ void solve() {
             o++;
         }
     }
-    int l1 = 0;
+    int l = 0;
     for(int i = 0; i < s.size(); i++) {
         if(s[i] == '0' && o > 0) {
             o--;
-            l1++;
+            l++;
         }
         else if(s[i] == '1' && z > 0) {
             z--;
-            l1++;
+            l++;
         }
         else {
             break;
         }
     }
-    cout << s.size() - l1 << "\n";
+    cout << s.size() - l << "\n";
 }
  
 int main() {
